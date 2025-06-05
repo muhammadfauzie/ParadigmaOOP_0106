@@ -8,23 +8,3 @@ class baseClass final {
     }
 };
 
-class baseClass1 {
-    public:
-    virtual void perkenalan1() {
-        cout << "Hallo saya Function dari base Class " ;
-    }
-};
-
-class derivedClass : public baseClass {
-    public:
-    void perkenalan()  { 
-        cout << "Hallo saya Function dari derived Class" ;
-    }
-};
-
-int main(){
-    derivedClass a;
-    a.perkenalan();
-
-    return 0;
-}

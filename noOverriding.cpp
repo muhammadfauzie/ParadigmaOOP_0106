@@ -7,17 +7,3 @@ class baseClass {
         cout << "Hallo saya Function dari base Class" ;
     }
 };
-
-class derivedClass : public baseClass {
-    public:
-    void perkenalan1() override { // Override function
-        cout << "Hallo saya Function dari derived Class" ;
-    }
-};
-
-int main(){
-    derivedClass a;
-    a.perkenalan();
-
-    return 0;
-}
